@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Media Merge</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1>Media Merge</h1>
+    </header>
+    <main>
+        <section id="upload-section">
+            <h2>Upload Video and Audio Files</h2>
+            <input type="file" id="videoInput" accept="video/*">
+            <input type="file" id="audioInput" accept="audio/*">
+            <button id="uploadButton">Upload and Merge</button>
+        </section>
+        <section id="result-section">
+            <h2>Result</h2>
+            <video id="resultVideo" controls></video>
+        </section>
+    </main>
+    <script src="script.js"></script>
+</body>
+</html>
